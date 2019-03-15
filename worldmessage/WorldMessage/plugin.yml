@@ -1,0 +1,10 @@
+name: WorldMessage
+description: Used to display messages every x seconds via tellraw depending on what world a player is in.
+main: pw.zeth.WorldMessage.Main
+version: 0.2
+author: razeth
+
+commands:
+    worldmessage:
+        usage: /<command> <set|remove|reload> <world> <duration> <json>
+        aliases: [wm]
